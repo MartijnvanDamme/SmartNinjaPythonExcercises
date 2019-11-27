@@ -1,0 +1,38 @@
+The mood checker
+
+mood = "relaxed"
+if mood == "Happy":
+    print ("It is greate to see you happy!")
+elif mood == "Nervous":
+    print ("Take a deep breath 3 times!")
+elif mood == "Sad":
+    print("Don't look so sad, I know it's over")
+elif mood == "Excited":
+    print("I am so excited and I just can't hide it")
+elif mood == "relaxed":
+    print ("Peace man")
+else:
+    print("You have no mood. You have a problem")
+
+Guess the secret number
+
+secret = 5
+guess = int(input("Guess the number:"))
+if guess == secret:
+    print("Proficiat!")
+else:
+    print ("Jammer joh!")
+
+Calculator
+
+first_number = int(input("Voer het 1ste nummer in:"))
+second_number = int(input("Voer het 2de nummer in:"))
+arithmatic_operation = input("Voer één van de volgende karakters in: +, -, *, /:")
+if arithmatic_operation == "+":
+    print (first_number + second_number)
+elif arithmatic_operation == "-":
+    print(first_number - second_number)
+elif arithmatic_operation == "*":
+    print(first_number * second_number)
+else:
+    print(first_number / second_number)
